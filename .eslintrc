@@ -3,7 +3,8 @@
       "browser": true
     },
     "globals": {
-      "it": true
+      "it": true,
+      "expect": true
     },
     "parser": "babel-eslint",
     "ecmaFeatures": {
