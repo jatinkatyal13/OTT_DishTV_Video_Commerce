@@ -10,3 +10,7 @@ script:
   - npm test
   - npm run build
   - npm run lint
+
+before_script:
+  # Fix a build problem: https://github.com/sass/node-sass/issues/1918
+  npm rebuild node-sass

@@ -3,6 +3,7 @@ import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
 
 import Home from '../containers/HomeContainer';
 
+import './App.css';
 
 const About = () => (
   <div>
