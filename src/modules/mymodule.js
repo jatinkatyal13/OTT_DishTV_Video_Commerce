@@ -28,10 +28,10 @@ const initialState = {
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
   case COUNTER_INCREMENT:
-    return Object.assign(
-      {},
-      state,
-      {counter: state.counter + action.payload});
+    return {
+      ...state,
+      counter: state.counter + action.payload
+    };
   default:
     return state;
   }
