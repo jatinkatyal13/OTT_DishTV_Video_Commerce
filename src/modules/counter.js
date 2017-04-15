@@ -16,7 +16,7 @@ export function increment(value = 1) {
 // ------------------------------------
 // Selectors
 
-export const getCounter = state => state.mymodule.counter;
+export const getCounter = state => state.counter.counter;
 
 // ------------------------------------
 // Store & reducer

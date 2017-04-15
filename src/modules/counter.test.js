@@ -1,6 +1,6 @@
-import reducer, { increment } from './mymodule';
+import reducer, { increment } from './counter';
 
-it('handle the increment action without value', () => {
+test('handle the increment action without value', () => {
   const initialState = {
     counter: 3
   };
@@ -8,7 +8,7 @@ it('handle the increment action without value', () => {
   expect(newState.counter).toEqual(4);
 });
 
-it('handle the increment action with a value', () => {
+test('handle the increment action with a value', () => {
   const initialState = {
     counter: 3
   };
@@ -16,7 +16,7 @@ it('handle the increment action with a value', () => {
   expect(newState.counter).toEqual(8);
 });
 
-it('handle an unknown action', () => {
+test('handle an unknown action', () => {
   const initialState = {
     counter: 3
   };

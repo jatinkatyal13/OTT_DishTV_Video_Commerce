@@ -1,5 +1,8 @@
 import { connect } from 'react-redux';
-import { increment, getCounter } from '../modules/mymodule';
+import {
+  increment,
+  getCounter
+} from '../modules/counter';
 
 import Home from '../components/Home';
 

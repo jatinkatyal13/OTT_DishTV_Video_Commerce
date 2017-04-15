@@ -2,14 +2,9 @@ import React from 'react';
 import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
 
 import Home from '../../containers/HomeContainer';
+import About from '../../containers/AboutContainer';
 
 import './App.css';
-
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-);
 
 
 const App = () => (
