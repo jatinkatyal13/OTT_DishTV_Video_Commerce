@@ -1,4 +1,7 @@
-import reducer, { increment } from './counter';
+import reducer, {
+  increment,
+  getCounter
+} from './counter';
 
 test('handle the increment action without value', () => {
   const initialState = {
@@ -17,9 +20,14 @@ test('handle the increment action with a value', () => {
 });
 
 test('handle an unknown action', () => {
-  const initialState = {
-    counter: 3
+  const newState = reducer();
+  expect(newState.counter).toEqual(0);
+});
+
+test('get the counter', () => {
+  const counterState = {
+    counter: 5
   };
-  const newState = reducer(initialState, {});
-  expect(newState.counter).toEqual(3);
+
+  expect(getCounter({counter: counterState})).toEqual(5);
 });

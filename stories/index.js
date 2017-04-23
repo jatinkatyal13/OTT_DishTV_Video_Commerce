@@ -15,6 +15,14 @@ storiesOf('Home', module)
 
 
 storiesOf('About', module)
+  .add('to be loaded', () => (
+    <About
+      contributors={[]}
+      fetchContributors={action('fetch contributors')}
+      loaded={false}/>
+  ));
+
+storiesOf('About', module)
   .add('with 2 contributors', () => {
     const contributors = [{
       username: 'gvaldambrini',

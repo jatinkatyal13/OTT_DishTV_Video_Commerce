@@ -2,7 +2,12 @@ import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import fetchMock from 'fetch-mock';
 
-import reducer, { fetchContributors, testing } from './about';
+import reducer, {
+  fetchContributors,
+  getContributors,
+  contributorsLoaded,
+  testing
+} from './about';
 
 const mockStore = configureMockStore([thunk]);
 
@@ -79,4 +84,33 @@ test('handle the fetchContributorsFailure action', () => {
   const newState = reducer(initialState, testing.fetchContributorsFailure('Unable to fetch'));
   expect(newState.contributors).toEqual([]);
   expect(newState.loaded).toEqual(true);
+});
+
+test('handle an unknown action', () => {
+  const newState = reducer();
+  expect(newState.contributors).toEqual([]);
+  expect(newState.loaded).toEqual(false);
+});
+
+test('get the contributors', () => {
+  const aboutState = {
+    contributors: [{
+      login: "gvaldambrini",
+      avatar_url: "https://avatars3.githubusercontent.com/u/2461921?v=3",
+      html_url: "https://github.com/gvaldambrini",
+      contributions: 10
+    }],
+    loaded: false,
+  };
+
+  expect(getContributors({about: aboutState})).toEqual(aboutState.contributors);
+});
+
+test('check if contributors are loaded', () => {
+  const aboutState = {
+    contributors: [],
+    loaded: true,
+  };
+
+  expect(contributorsLoaded({about: aboutState})).toEqual(true);
 });

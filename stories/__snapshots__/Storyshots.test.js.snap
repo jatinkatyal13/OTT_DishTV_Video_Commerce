@@ -1,3 +1,5 @@
+exports[`Storyshots About to be loaded 1`] = `null`;
+
 exports[`Storyshots About with 2 contributors 1`] = `
 <div
   className="About">
