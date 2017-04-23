@@ -1,24 +1,23 @@
 import React from 'react';
-import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-import Home from '../../containers/HomeContainer';
-import About from '../../containers/AboutContainer';
+import { Link } from 'react-router-dom';
 
 import './App.css';
 
-
-const App = () => (
-  <Router>
-    <div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-      <hr/>
-      <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
-    </div>
-  </Router>
+const App = (props) => (
+  <div>
+    <ul>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/about">About</Link></li>
+    </ul>
+    <hr/>
+    {props.children}
+  </div>
 );
+
+App.propTypes = {
+  children: PropTypes.any
+};
 
 export default App;
