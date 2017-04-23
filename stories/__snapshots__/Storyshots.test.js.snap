@@ -35,6 +35,102 @@ exports[`Storyshots About with 2 contributors 1`] = `
 </div>
 `;
 
+exports[`Storyshots App about 1`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <div
+      className="About">
+      <h2>
+        Contributors:
+      </h2>
+      <div>
+        <div
+          className="contributor">
+          <img
+            alt=""
+            src="https://avatars3.githubusercontent.com/u/2461921?v=3" />
+          <a
+            href="https://github.com/gvaldambrini">
+            gvaldambrini
+          </a>
+          <span>
+            10 commits
+          </span>
+        </div>
+        <div
+          className="contributor">
+          <img
+            alt=""
+            src="https://avatars1.githubusercontent.com/u/425276?v=3" />
+          <a
+            href="https://github.com/rugginoso">
+            rugginoso
+          </a>
+          <span>
+            1 commit
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots App home 1`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}>
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}>
+          About
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <div
+      className="Home">
+      <h2>
+        Home
+      </h2>
+      <p>
+        Counter: 
+        10
+      </p>
+      <button
+        onClick={[Function]}>
+        Increment
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Home with counter 1`] = `
 <div
   className="Home">
