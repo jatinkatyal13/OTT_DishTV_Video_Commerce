@@ -2,7 +2,7 @@ import React from 'react';
 
 import { storiesOf, action, linkTo } from '@kadira/storybook';
 
-import StoryRouter from './StoryRouter';
+import StoryRouter from 'storybook-router';
 import Home from '../src/components/Home';
 import About from '../src/components/About';
 import App from '../src/components/App';
