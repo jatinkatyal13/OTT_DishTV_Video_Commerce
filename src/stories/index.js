@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { storiesOf, action, linkTo } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
+import { linkTo } from '@storybook/addon-links';
 
 import StoryRouter from 'storybook-router';
-import Home from '../src/components/Home';
-import About from '../src/components/About';
-import App from '../src/components/App';
+import Home from '../components/Home';
+import About from '../components/About';
+import App from '../components/App';
 
 
 storiesOf('Home', module)

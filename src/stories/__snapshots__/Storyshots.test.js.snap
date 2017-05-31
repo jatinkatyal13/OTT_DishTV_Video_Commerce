@@ -1,19 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Storyshots About to be loaded 1`] = `null`;
 
 exports[`Storyshots About with 2 contributors 1`] = `
 <div
-  className="About">
+  className="About"
+>
   <h2>
     Contributors:
   </h2>
   <div>
     <div
-      className="contributor">
+      className="contributor"
+    >
       <img
         alt=""
-        src="https://avatars3.githubusercontent.com/u/2461921?v=3" />
+        src="https://avatars3.githubusercontent.com/u/2461921?v=3"
+      />
       <a
-        href="https://github.com/gvaldambrini">
+        href="https://github.com/gvaldambrini"
+      >
         gvaldambrini
       </a>
       <span>
@@ -21,12 +27,15 @@ exports[`Storyshots About with 2 contributors 1`] = `
       </span>
     </div>
     <div
-      className="contributor">
+      className="contributor"
+    >
       <img
         alt=""
-        src="https://avatars1.githubusercontent.com/u/425276?v=3" />
+        src="https://avatars1.githubusercontent.com/u/425276?v=3"
+      />
       <a
-        href="https://github.com/rugginoso">
+        href="https://github.com/rugginoso"
+      >
         rugginoso
       </a>
       <span>
@@ -44,32 +53,38 @@ exports[`Storyshots App about 1`] = `
       <li>
         <a
           href="/"
-          onClick={[Function]}>
+          onClick={[Function]}
+        >
           Home
         </a>
       </li>
       <li>
         <a
           href="/about"
-          onClick={[Function]}>
+          onClick={[Function]}
+        >
           About
         </a>
       </li>
     </ul>
     <hr />
     <div
-      className="About">
+      className="About"
+    >
       <h2>
         Contributors:
       </h2>
       <div>
         <div
-          className="contributor">
+          className="contributor"
+        >
           <img
             alt=""
-            src="https://avatars3.githubusercontent.com/u/2461921?v=3" />
+            src="https://avatars3.githubusercontent.com/u/2461921?v=3"
+          />
           <a
-            href="https://github.com/gvaldambrini">
+            href="https://github.com/gvaldambrini"
+          >
             gvaldambrini
           </a>
           <span>
@@ -77,12 +92,15 @@ exports[`Storyshots App about 1`] = `
           </span>
         </div>
         <div
-          className="contributor">
+          className="contributor"
+        >
           <img
             alt=""
-            src="https://avatars1.githubusercontent.com/u/425276?v=3" />
+            src="https://avatars1.githubusercontent.com/u/425276?v=3"
+          />
           <a
-            href="https://github.com/rugginoso">
+            href="https://github.com/rugginoso"
+          >
             rugginoso
           </a>
           <span>
@@ -102,21 +120,24 @@ exports[`Storyshots App home 1`] = `
       <li>
         <a
           href="/"
-          onClick={[Function]}>
+          onClick={[Function]}
+        >
           Home
         </a>
       </li>
       <li>
         <a
           href="/about"
-          onClick={[Function]}>
+          onClick={[Function]}
+        >
           About
         </a>
       </li>
     </ul>
     <hr />
     <div
-      className="Home">
+      className="Home"
+    >
       <h2>
         Home
       </h2>
@@ -125,7 +146,8 @@ exports[`Storyshots App home 1`] = `
         10
       </p>
       <button
-        onClick={[Function]}>
+        onClick={[Function]}
+      >
         Increment
       </button>
     </div>
@@ -135,7 +157,8 @@ exports[`Storyshots App home 1`] = `
 
 exports[`Storyshots Home with counter 1`] = `
 <div
-  className="Home">
+  className="Home"
+>
   <h2>
     Home
   </h2>
@@ -144,7 +167,8 @@ exports[`Storyshots Home with counter 1`] = `
     10
   </p>
   <button
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     Increment
   </button>
 </div>
