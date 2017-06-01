@@ -2,7 +2,8 @@
     "env": {
       "browser": true,
       "node": true,  // storybook
-      "jest": true
+      "jest": true,
+      "es6": true
     },
     "parser": "babel-eslint",
     "ecmaFeatures": {
@@ -17,6 +18,7 @@
     ],
     "rules": {
       "no-unused-vars": 2,
+      "keyword-spacing": 2,
       "semi": [2, "always"],
       "indent": [2, 2],
       "no-param-reassign": 2,
