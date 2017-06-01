@@ -1,8 +1,9 @@
 [![Build Status](https://api.travis-ci.org/repositories/gvaldambrini/react-simple-boilerplate.svg)](https://travis-ci.org/gvaldambrini/react-simple-boilerplate)
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+#### Why Yet Another Boilerplate?
+Create React App is the the new blessed way of creating a React SPA project infrastructure. However (by design decision) it does not include many of the tools required to build a Single Page Application. This simple boilerplate was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and adds on the top of that the bare minimum libraries & tools required to create a SPA.
 
-On the top of CRA, it adds:
+In details, on the top of CRA, it adds:
  - sass
  - redux & redux-thunk
  - react-router
