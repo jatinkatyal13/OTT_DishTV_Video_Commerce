@@ -17,7 +17,6 @@
     "@storybook/addon-actions": "^3.0.0",
     "@storybook/addon-links": "^3.0.0",
     "@storybook/addon-storyshots": "^3.0.0",
-    "react-test-renderer": "^15.5.4",
     "@storybook/react": "3.0.0",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "7.0.1",
@@ -25,8 +24,9 @@
     "node-sass-chokidar": "^0.0.2",
     "npm-run-all": "^4.0.2",
     "react-scripts": "1.0.7",
+    "react-test-renderer": "^15.5.4",
     "redux-mock-store": "^1.2.3",
-    "storybook-router": "^0.2.5"
+    "storybook-router": "^0.2.6"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",

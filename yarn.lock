@@ -6386,9 +6386,9 @@ stdout-stream@^1.4.0:
   dependencies:
     readable-stream "^2.0.1"
 
-storybook-router@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/storybook-router/-/storybook-router-0.2.5.tgz#1d8172bd537c59a05ad8392068a73208370d0ab0"
+storybook-router@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/storybook-router/-/storybook-router-0.2.6.tgz#c9f9fdaf344bf4492bef10596fe9932881fbd211"
   dependencies:
     "@storybook/addon-actions" "^3.0.0"
     prop-types "^15.5.10"
