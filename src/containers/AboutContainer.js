@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 import {
-    fetchContributors,
-    getContributors,
-    contributorsLoaded
+  fetchContributors,
+  getContributors,
+  contributorsLoaded
 } from '../modules/about';
 
 import About from '../components/About';

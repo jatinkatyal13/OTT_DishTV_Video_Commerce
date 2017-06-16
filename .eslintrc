@@ -6,8 +6,11 @@
       "es6": true
     },
     "parser": "babel-eslint",
-    "ecmaFeatures": {
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
         "jsx": true
+      }
     },
     "extends": [
       "eslint:recommended",
