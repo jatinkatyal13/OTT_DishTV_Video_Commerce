@@ -1,7 +1,7 @@
 // ------------------------------------
 // Constants
 
-const COUNTER_INCREMENT = 'COUNTER_INCREMENT';
+const COUNTER_INCREMENT = 'counter/COUNTER_INCREMENT';
 
 // ------------------------------------
 // Action creators

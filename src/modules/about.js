@@ -3,8 +3,8 @@
 
 const REPO_URL = 'https://api.github.com/repos/gvaldambrini/react-simple-boilerplate';
 
-const CONTRIBUTORS_FETCH_SUCCESS = 'CONTRIBUTORS_FETCH_SUCCESS';
-const CONTRIBUTORS_FETCH_FAILURE = 'CONTRIBUTORS_FETCH_FAILURE';
+const CONTRIBUTORS_FETCH_SUCCESS = 'about/CONTRIBUTORS_FETCH_SUCCESS';
+const CONTRIBUTORS_FETCH_FAILURE = 'about/CONTRIBUTORS_FETCH_FAILURE';
 
 // ------------------------------------
 // Action creators

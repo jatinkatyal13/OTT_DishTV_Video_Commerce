@@ -17,7 +17,7 @@ class About extends Component {
     }
 
     const contributors = this.props.contributors.map(el => (
-      <div key={el.username} className="contributor">
+      <div key={el.username} className="About__contributor">
         <img src={el.avatar} alt=""/>
         <a href={el.url}>{el.username}</a>
         <span>
