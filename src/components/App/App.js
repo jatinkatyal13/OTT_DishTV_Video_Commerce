@@ -20,7 +20,7 @@ export default class App extends Component{
         <SideBar />
         <Layout>
           <Header style={{ background: '#fff', padding: 2 }} >
-            <h1> Ad Tags </h1>
+            <h1> Dish TV OTT </h1>
           </Header>
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
