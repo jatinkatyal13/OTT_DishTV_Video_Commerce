@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import Home from '../components/Home';
+import TV from '../components/TV';
 
 
 const mapDispatchToProps = {
@@ -11,4 +11,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(TV);

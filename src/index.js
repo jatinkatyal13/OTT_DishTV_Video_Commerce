@@ -11,7 +11,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 import rootReducer from './modules';
 import App from './components/App';
 import Home from './containers/HomeContainer';
-import About from './containers/AboutContainer';
+import TV from './containers/TVContainer';
 
 const store = createStore(
   rootReducer,
@@ -22,7 +22,7 @@ const routes = (
   <Router>
     <App>
       <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
+      <Route path="/tv/:id" component={TV}/>
     </App>
   </Router>
 );

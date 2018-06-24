@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.6.4",
     "normalize.css": "^7.0.0",
     "prop-types": "^15.6.0",
     "react": "^16.1.1",
@@ -10,8 +11,10 @@
     "react-redux": "5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-toastify": "^4.1.0",
     "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "video-react": "^0.11.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.16",
